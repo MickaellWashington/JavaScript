@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+    background-color: chartreuse;
+    font: normal 20pt italic;
+}
+h1 {
+    color: blue;
+}
+p {
+    font: bold 10pt arial;
+}

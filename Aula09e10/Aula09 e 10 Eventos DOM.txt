@@ -1,0 +1,50 @@
+20/12/2022
+
+Módulo C
+Aula 09 e 10: Introdução ao DOM e Eventos DOM
+
+DOM (Document Object Model)
+
+Árvore DOM
+Começa da raiz, e a raiz começa do "window"
+(Janela do navegador)
+
+Dentro do window tem várias coisas: location, document, history e etc.
+
+Location: diz qual a localização do seu site, a URL, a página atual e qual foi a página anterior.
+
+Document: documento atual
+
+History: guarda de onde vc veio e pra onde vc vai. Facilita a navegação no site.
+
+Dentro do document, existe a parte html. E dentro do html temos o head e o body. (dois filhos, como chamam) 
+
+(Quem tá embaixo na árvore DOM, se chama children, e quem tá encima, parent. Head e body são children de html. E html é parent de head e body)
+
+Dentro de head, temos meta, title entre outras.
+Dentro do body, temos h1, p, div e oq tiver.
+
+Eventos DOM
+
+Eventos DOM são eventos sobre uma tag.
+Exemplo: Passar o mouse sobre um local, vai disparar o evento "mousemove". Clicar em algo, vai disparar o evento "click" e etc.
+
+Função ou Funcionalidade em JS:
+
+Conjunto de código que vão ser executadas só quando o evento ocorrer.
+
+Ex: colocar 10 linhas de código dentro das {} vai se chama "Bloco"
+
+{
+aqui é uma bloco
+}
+
+Os blocos tem que ser nomeados com uma "function" (função)
+
+function {
+conteúdo
+}
+
+Para o método funcionar, precisamos adicionar uma função, que geralmente é uma "ação".
+
+nome da ação + () e dentro dos parênteses, podemos por parâmetros

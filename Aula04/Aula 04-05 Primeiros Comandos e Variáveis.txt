@@ -1,0 +1,105 @@
+16/12/2022
+
+1970:
+Primórdios da internet
+Darpa
+Arpanet
+
+1993:
+Tim Berners-Lee ( criador WWW, Html...)
+Mosaic (navegador)
+
+1994:
+NetScape
+
+1995:
+Brendan Eich (criador do JS a pedido da NetScape)
+Java (outra línguagem que na época fez muito sucesso na midia, chamando de línguagem do futuro) 
+JavaScript (jogada de marketing, por causa do nome Java)
+JScript (Microsoft)
+
+1997:
+ECMAScript (JavaScript padronizado pela empresa ECMA)
+
+2002:
+NetScape Faliu (equipe criou uma nova fundação)
+E surgiu a Fundação Mozilla e ganhou novo código e outras funções.
+Surgiu o navegador Firefox
+
+2008:
+Surgiu o Google Chrome (em 2 anos já era o 3 favorito)
+
+2009:
+Motor interno de JS o "V8" do navegador Chrome
+
+2010:
+NodeJS (JavaScript sem o navegador Chrome)
+
+Conjuto de biblioteca:
+Facebook lançou o React
+Vue
+jQuery
+Electron
+Ionic
+
+__________________________________________
+
+Primeiros Comandos:
+
+Disparar Janelas
+
+window.alert ("Exemplo") = Aparece uma mensagem na tela
+
+window.confirm ("Está gostando?") = aparece uma mensagem de confirmação
+
+window.prompt ("Qual é seu nome?")
+
+__________________________________________
+
+Variáveis e Tipos Primitivos:
+
+Comentários:
+
+// = única linha de código
+/* mais de uma linha de código */
+
+único sinal de = tem o nome de "Recebe"
+Null (nulo)
+
+Para adicionar uma "vaga" ou um "espaço" para guarda informação se utiliza "var" ou "let"
+
+var n1 = 5
+var n2 = 8.5
+var n3 = 15
+
+var s1 = "JavaScript"
+var s2 = 'Curso em Vídeo'
+var s3 = `Shy`
+
+(Tem três forma de delimitar uma string no JS)
+
+Nome de cada variável se chama:
+Identificadores
+
+E Identificadores tem regras:
+podem começar com letra, com $ ou símbolo de _ (sublinhados)
+
+Não podem começar com números
+
+É possível usar letras ou números
+
+É possível usar acentos e símbolos
+
+Não podem conter espaço
+
+Não podem ser palavras reservadas (palavras que o jS usa como code)
+
+Dicas de Indentificadores:
+
+Maiúsculas e minúsculas fazem diferença
+
+Tente escolher nomes coerentes para as variáveis
+
+Variáveis servem para guardar informações ou dados
+
+Typeof = mostra o tipo da variável

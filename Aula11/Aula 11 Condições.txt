@@ -1,0 +1,45 @@
+26/12/2022
+
+Aula 11 – Condições (Parte 1)
+
+Leva a dois caminhos.
+direita e esquerda
+desvio condicional
+
+if = se
+else = se não
+
+if {
+true
+} else {
+false
+}
+
+If {
+
+} else {
+
+}
+
+Caso o primeiro bloco não for correto, o segundo é ativado
+
+//Tipos de condições:
+Condição simples:
+
+if {
+true
+}
+
+se a condição for falsa, nada de especial vai acontecer.
+
+Nesse caso:
+
+If {
+
+} else {
+
+}
+
+se o primeiro for falso, o segundo é ativado.
+
+console.log() "Significa, escreva na tela."

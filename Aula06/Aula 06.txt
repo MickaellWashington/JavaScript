@@ -1,0 +1,17 @@
+17/12/2022
+
+Tratamento de dados
+
+var nome = window.prompt ("Qual o seu nome?")
+
+window.alert("Prazer te conhecer, " + nome)
+
+Converção:
+
+Number.parseInt (Converte um número em um inteiro) 12
+Number.parseFloat (Converte um número para um número real) 12.5
+
+String.() converte para letra
+(texto).toString()
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
