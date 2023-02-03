@@ -1,48 +1,18 @@
-function contar() {
-
-    let ini = document.querySelector('#txti')
-    let fim = document.querySelector('#txtf')
-    let pss = document.querySelector('#txtp')
-    let res = document.querySelector('#res')
-
-    if (ini.value.length == 0 || fim.value.length == 0 || pss.value.length == 0) {
-
-        res.innerHTML = 'Impossível contar!'
-
+function tabuada() {
+    let num = document.querySelector('#txtn')
+    let tab = document.querySelector('#seltab')
+    if (num.value.length == 0) {
+        alert('Por favor digite um número')
     } else {
-
-        res.innerHTML = 'Contando: '
-
-        let i = Number(ini.value)
-        let f = Number(fim.value)
-        let p = Number(pss.value)
-
-        if (p <= 0) {
-
-            alert('Passo inválido, considerando Passo 1')
-            p = 1
-
+        let n = Number(num.value)
+        let c = 1
+        tab.innerHTML = ''
+        while (c <= 10) {
+            let item = document.createElement('option')
+            item.text = `${n} x ${c} = ${n*c}`
+            item.value = `tab${c}`
+            tab.appendChild(item)
+            c++
         }
-
-        if (i < f) {
-
-//contagem crescente:
-
-            for (let c = i; c <= f; c += p) {
-                res.innerHTML += `${c} `
-                }
-
-     } else {
-
-//contagem decrescente
-
-        for (let c = i; c >= f; c -= p) {
-            res.innerHTML += `${c} `
-        } 
-      
-     }
-
-     res.innerHTML += `\u{1f3c1}`
-     
-  }
+    }
 }
